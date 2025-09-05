@@ -1,0 +1,2270 @@
+[
+  {
+    "job": "Almoxarife",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Almoxarife",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Almoxarife",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Almoxarife",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Almoxarife",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Almoxarife",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Almoxarifado",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Almoxarifado",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Almoxarifado",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Almoxarifado",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Almoxarifado",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Almoxarifado",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Apontador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Apontador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Apontador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Apontador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Apontador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Apontador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Eletricista",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Eletricista",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Eletricista",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Eletricista",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Eletricista",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Eletricista",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encanador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encanador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encanador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encanador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encanador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encanador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Vigia",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Vigia",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Vigia",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Vigia",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Vigia",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Vigia",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy I",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy I",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy I",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy I",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy I",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy I",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy II",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy II",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy II",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy II",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy II",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy II",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy III",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy III",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy III",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy III",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy III",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Motoboy III",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator I",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator I",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator I",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator I",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator I",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator I",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator II",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator II",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator II",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator II",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator II",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator II",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator III",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator III",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator III",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator III",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator III",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Operador de Trator III",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Junior",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Junior",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Junior",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Junior",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Junior",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Junior",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Pleno",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Pleno",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Pleno",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Pleno",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Pleno",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Pleno",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Senior",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Senior",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Senior",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Senior",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Senior",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Assistente Administrativo Senior",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Junior",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Junior",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Junior",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Junior",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Junior",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Junior",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Pleno",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Pleno",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Pleno",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Pleno",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Pleno",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Pleno",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Senior",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Senior",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Senior",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Senior",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Senior",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Desenvolvedor Senior",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Armador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Armador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Armador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Armador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Armador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Armador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Carpinteiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Carpinteiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Carpinteiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Carpinteiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Carpinteiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Carpinteiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pedreiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pedreiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pedreiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pedreiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pedreiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pedreiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pintor",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pintor",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pintor",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pintor",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pintor",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Pintor",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Gesseiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Gesseiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Gesseiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Gesseiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Gesseiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Gesseiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Rejuntador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Rejuntador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Rejuntador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Rejuntador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Rejuntador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Rejuntador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Eletricista",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Eletricista",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Eletricista",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Eletricista",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Eletricista",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Eletricista",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Soldador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Soldador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Soldador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Soldador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Soldador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Soldador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Serralheiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Serralheiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Serralheiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Serralheiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Serralheiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Encarregado de Serralheiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Armador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Armador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Armador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Armador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Armador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Armador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Carpinteiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Carpinteiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Carpinteiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Carpinteiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Carpinteiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Carpinteiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pedreiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pedreiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pedreiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pedreiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pedreiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pedreiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pintor",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pintor",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pintor",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pintor",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pintor",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Pintor",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Gesseiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Gesseiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Gesseiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Gesseiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Gesseiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Gesseiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Rejuntador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Rejuntador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Rejuntador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Rejuntador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Rejuntador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Rejuntador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Eletricista",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Eletricista",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Eletricista",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Eletricista",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Eletricista",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Eletricista",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Soldador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Soldador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Soldador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Soldador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Soldador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Soldador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Serralheiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Serralheiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Serralheiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Serralheiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Serralheiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Meio-Oficial de Serralheiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Armador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Armador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Armador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Armador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Armador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Armador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Carpinteiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Carpinteiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Carpinteiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Carpinteiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Carpinteiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Carpinteiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pedreiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pedreiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pedreiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pedreiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pedreiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pedreiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pintor",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pintor",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pintor",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pintor",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pintor",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Pintor",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Gesseiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Gesseiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Gesseiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Gesseiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Gesseiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Gesseiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Rejuntador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Rejuntador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Rejuntador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Rejuntador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Rejuntador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Rejuntador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Eletricista",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Eletricista",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Eletricista",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Eletricista",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Eletricista",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Eletricista",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Soldador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Soldador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Soldador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Soldador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Soldador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Soldador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Serralheiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Serralheiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Serralheiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Serralheiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Serralheiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Auxiliar de Serralheiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Armador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Armador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Armador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Armador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Armador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Armador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Carpinteiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Carpinteiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Carpinteiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Carpinteiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Carpinteiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Carpinteiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pedreiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pedreiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pedreiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pedreiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pedreiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pedreiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pintor",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pintor",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pintor",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pintor",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pintor",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Pintor",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Gesseiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Gesseiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Gesseiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Gesseiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Gesseiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Gesseiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Rejuntador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Rejuntador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Rejuntador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Rejuntador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Rejuntador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Rejuntador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Eletricista",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Eletricista",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Eletricista",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Eletricista",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Eletricista",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Eletricista",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Soldador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Soldador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Soldador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Soldador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Soldador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Soldador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Serralheiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Serralheiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Serralheiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Serralheiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Serralheiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Ajudante de Serralheiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Armador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Armador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Armador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Armador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Armador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Armador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Carpinteiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Carpinteiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Carpinteiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Carpinteiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Carpinteiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Carpinteiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pedreiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pedreiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pedreiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pedreiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pedreiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pedreiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pintor",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pintor",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pintor",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pintor",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pintor",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Pintor",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Gesseiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Gesseiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Gesseiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Gesseiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Gesseiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Gesseiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Rejuntador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Rejuntador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Rejuntador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Rejuntador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Rejuntador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Rejuntador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Eletricista",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Eletricista",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Eletricista",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Eletricista",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Eletricista",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Eletricista",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Soldador",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Soldador",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Soldador",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Soldador",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Soldador",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Soldador",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Serralheiro",
+    "city": "Cuiabá, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Serralheiro",
+    "city": "Sorriso, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Serralheiro",
+    "city": "Rondonópolis, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Serralheiro",
+    "city": "Sinop, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Serralheiro",
+    "city": "Alta Floresta, Mato Grosso",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  },
+  {
+    "job": "Profissional de Serralheiro",
+    "city": "Patos, Paraíba",
+    "modality": "Presencial",
+    "contractType": "CLT - Com registro em carteira de trabalho."
+  }
+]

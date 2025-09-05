@@ -101,11 +101,7 @@ export class MessageVariablesFactory {
     }
 
     private getExtraBenefits(requestBody: RequestBody): string {
-        
-        console.log(requestBody.job)
-
         let benefitArray = [];
-        benefitArray.push("\t");
     
         const jobSector = this.getSector(requestBody.job);
         
@@ -136,6 +132,7 @@ export class MessageVariablesFactory {
         if(isAdmin) {
             benefitArray.push(BenefitEnum.PREMIO_PASSAGEM_AEREA)
         } else {
+            if(requestBody.job.split(" ").at(requestBody.job.split(" ").length) == )
             benefitArray.push(BenefitEnum.PREMIOS_POR_ATIVIDADES_EXEPCIONAIS);
         }
 
@@ -154,8 +151,6 @@ export class MessageVariablesFactory {
             }
         }
 
-        
-
         let filteredArray = [];
 
         benefitArray.forEach(benefit => {
@@ -164,7 +159,7 @@ export class MessageVariablesFactory {
             }
         });
 
-        return filteredArray.toString().replaceAll(",", "\n\t\t");
+        return filteredArray.toString().replaceAll("\,","");
     }
 
     private getWorkingHours(requestBody: RequestBody): WorkingHoursEnum {
