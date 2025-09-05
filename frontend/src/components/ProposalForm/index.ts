@@ -1,1 +1,0 @@
-export { ProposalForm } from './ProposalForm';

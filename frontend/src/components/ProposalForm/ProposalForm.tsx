@@ -2,7 +2,12 @@ import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "@/components/ui/button";
 import {
-  Form, FormControl, FormField,  FormItem, FormLabel, FormMessage,
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
 } from "@/components/ui/form";
 import {
   Select,
@@ -18,12 +23,14 @@ import {
   needsJobComplement,
 } from "@/schemas/formSchemas";
 import { Job, JobComplement, Location, Modality, ContractType } from "@/enums";
+import GenerateAllButton from "../GenerateAllButton/GenerateAllButton";
 
 interface ProposalFormProps {
   onSubmit: (values: ProcessedFormValues) => void;
+  onGenerateAll?: (values: ProcessedFormValues[]) => void; // Nova prop
 }
 
-const ProposalForm = ({ onSubmit }: ProposalFormProps) => {
+const ProposalForm = ({ onSubmit, onGenerateAll }: ProposalFormProps) => {
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -57,10 +64,12 @@ const ProposalForm = ({ onSubmit }: ProposalFormProps) => {
 
     onSubmit(processedData);
   };
+
   return (
     <div>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-6">
+          {/* Seus campos de formulário existentes */}
           <FormField
             control={form.control}
             name="job"
@@ -206,11 +215,17 @@ const ProposalForm = ({ onSubmit }: ProposalFormProps) => {
             )}
           />
 
-          <Button type="submit" className="w-full cursor-pointer">
-            Gerar Proposta
-          </Button>
+          <div className="w-6/12 mx-auto">
+            <Button type="submit" size="lg" className="w-full cursor-pointer">
+              Gerar Proposta
+            </Button>
+          </div>
         </form>
       </Form>
+
+      {onGenerateAll && (
+        <GenerateAllButton onGenerateAll={onGenerateAll} className="w-6/12 mx-auto mt-6" />
+      )}
     </div>
   );
 };

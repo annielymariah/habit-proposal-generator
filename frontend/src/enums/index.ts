@@ -47,12 +47,12 @@ export enum Location {
 
 export enum Modality {
   PRESENCIAL = "Presencial",
-  REMOTO = "Remoto",
+  //REMOTO = "Remoto",
 }
 
 export enum ContractType {
   CLT = "CLT",
-  PJ = "PJ",
-  DAILY = "Diária",
-  INTERNSHIP = "Estágio",
+  //PJ = "PJ",
+  //DAILY = "Diária",
+  //INTERNSHIP = "Estágio",
 }

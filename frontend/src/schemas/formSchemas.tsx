@@ -62,13 +62,13 @@ export const formSchema = z.object({
   ] as const),
   modality: z.enum([
     Modality.PRESENCIAL,
-    Modality.REMOTO,
+    //Modality.REMOTO,
   ] as const),
   contractType: z.enum([
     ContractType.CLT,
-    ContractType.PJ,
-    ContractType.DAILY,
-    ContractType.INTERNSHIP,
+    //ContractType.PJ,
+    //ContractType.DAILY,
+    //ContractType.INTERNSHIP,
   ] as const),
 }).refine((data) => {
   if (needsJobComplement(data.job)) {
