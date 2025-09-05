@@ -1,18 +1,33 @@
-//import { useState } from "react";
 import Header from "./components/Header/Header";
 import ProposalForm from "./components/ProposalForm/ProposalForm";
 import { type ProcessedFormValues } from "./schemas/formSchemas";
 
 function App() {
-  //const [isLoading, setIsLoading] = useState(false);
+
+  const downloadTxtFile = (content: string, filename: string) => {
+    const element = document.createElement("a");
+    const file = new Blob([content], { type: "text/plain" });
+    element.href = URL.createObjectURL(file);
+    element.download = filename;
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+  };
 
   const handleSubmit = async (values: ProcessedFormValues) => {
     console.log("Proposta única:", values);
+    // Incluir lógica para enviar a proposta única para o backend
+    
+    const content = JSON.stringify(values, null, 2);
+    downloadTxtFile(content, `proposta-${Date.now()}.txt`);
   };
 
   const handleGenerateAll = async (allProposals: ProcessedFormValues[]) => {
     console.log("Enviando todas as propostas:", allProposals.length);
-    console.log(allProposals);
+    // Incluir lógica para enviar a proposta única para o backend
+
+    const content = JSON.stringify(allProposals, null, 2);
+    downloadTxtFile(content, `todas-propostas-${Date.now()}.txt`);
   };
 
   return (
