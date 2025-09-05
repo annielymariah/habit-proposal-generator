@@ -1,8 +1,8 @@
 export enum BenefitEnum {
-    PERICULOSIDADE = "➡ Mensagem de periculosidade\n",
-    INSALIBRIDADE = "➡ Mensagem de insalubridade\n",
-    PREMIOS_POR_ATIVIDADES_EXEPCIONAIS = "➡ Mensagem de premios por atividade exepcionais\n",
-    PREMIO_PASSAGEM_AEREA = "➡ Mensagem de premios passagem aerea\n",
-    CHECK_LIST = "➡ Mensagem Checklist\n",
+    PERICULOSIDADE = "➡ Adicional de Periculosidade de 30% em cima do valor de salário base.",
+    INSALIBRIDADE = "➡ Adicional de Insalubridade de 20% em cima do valor de salário mínimo vigente\n",
+    PREMIOS_POR_ATIVIDADES_EXEPCIONAIS = "➡ Prêmio por atividades excepcionais.\n",
+    //PREMIO_PASSAGEM_AEREA = "➡ \n",
+    CHECK_LIST = "➡ Prêmio por entrega de checklist do veículo: 500,00 (mensal).\n",
     ASSUIDADE = "➡ Prêmio Assiduidade, por mês completo de trabalho."
 }
