@@ -12,7 +12,7 @@ export class MessageBuilderService {
         const messageVariables = this.messageVariablesFactory.createMessageVariables(requestBody);
         const message = 
             `
-                        *PROPOSTA DE TRABALHO PARA ${messageVariables.jobComplement} EM ${messageVariables.city.split(",").at(0)}:*
+            *PROPOSTA DE TRABALHO PARA ${messageVariables.jobComplement} EM ${messageVariables.city.split(",").at(0)}:*
             🔸Local: ${messageVariables.city}}.
             🔸Função: ${messageVariables.jobComplement}.
             🔸Salário base de R$ ${messageVariables.baseSalary}.
@@ -24,8 +24,6 @@ export class MessageBuilderService {
             ➡ Fornecemos almoço no local de segunda a sexta-feira e café da manhã de segunda a sábado.
             ➡ Auxílio Transporte, considerando o valor de R$ ${messageVariables.vr} por dia útil trabalhado.
             ➡ Convênio BR5 assim que finalizado a admissão.
-
-            *Adicionais:*
             ${messageVariables.extraBenefitsList}
             
             Horário de trabalho:
