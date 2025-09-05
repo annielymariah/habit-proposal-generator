@@ -81,7 +81,7 @@ const GenerateAllButton = ({ onGenerateAll, className }: GenerateAllButtonProps)
         variant="secondary"
         size={"lg"}
       >
-        Gerar Todas as Propostas (Quantidade: {totalProposals})
+        Gerar Todas as Propostas (Total: {totalProposals})
       </Button>
       
       <p className="text-sm text-muted-foreground mt-2 text-center">

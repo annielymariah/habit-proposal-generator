@@ -215,7 +215,7 @@ const ProposalForm = ({ onSubmit, onGenerateAll }: ProposalFormProps) => {
             )}
           />
 
-          <div className="w-6/12 mx-auto">
+          <div className="w-6/12 min-w-[280px] mx-auto">
             <Button type="submit" size="lg" className="w-full cursor-pointer">
               Gerar Proposta
             </Button>
@@ -224,7 +224,7 @@ const ProposalForm = ({ onSubmit, onGenerateAll }: ProposalFormProps) => {
       </Form>
 
       {onGenerateAll && (
-        <GenerateAllButton onGenerateAll={onGenerateAll} className="w-6/12 mx-auto mt-6" />
+        <GenerateAllButton onGenerateAll={onGenerateAll} className="w-6/12 min-w-[280px] mx-auto mt-6" />
       )}
     </div>
   );
