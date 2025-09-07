@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import ProposalForm from "./components/ProposalForm/ProposalForm";
+import { generateProposal } from "./scripts/proposalGenerator";
 import { type ProcessedFormValues } from "./schemas/formSchemas";
 
 function App() {
@@ -14,22 +15,28 @@ function App() {
     document.body.removeChild(element);
   };
 
-  const handleSubmit = async (values: ProcessedFormValues) => {
-    console.log("Proposta única:", values);
+ const handleSubmit = (values: ProcessedFormValues) => {
+  console.log("Proposta única:", values);
 
-    // Incluir lógica de script pra criar o texto com todas as propostas e baixar um arquivo .txt
+  const proposalText = generateProposal(values);
 
-    const content = JSON.stringify(values, null, 2);
-    downloadTxtFile(content, `proposta-${Date.now()}.txt`);
-  };
+  console.log(proposalText);
 
+  downloadTxtFile(
+    proposalText,
+    `${values.job}-${values.contractType}-${values.location}-${Date.now()}.txt`
+  );
+};
   const handleGenerateAll = async (allProposals: ProcessedFormValues[]) => {
     console.log("Enviando todas as propostas:", allProposals.length);
-    // Incluir lógica de script pra criar o texto com todas as propostas e baixar um arquivo .txt
 
-
-    const content = JSON.stringify(allProposals, null, 2);
-    downloadTxtFile(content, `todas-propostas-${Date.now()}.txt`);
+    allProposals.forEach(proposals => {
+        const proposalText = generateProposal(proposals);
+    downloadTxtFile(
+      proposalText,
+      `${proposals.job}-${proposals.contractType}-${proposals.location}-${Date.now()}.txt`
+    );    
+  });
   };
 
   return (
