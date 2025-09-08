@@ -8,6 +8,7 @@ export enum JobComplementEnum {
   SOLDADOR = "Soldador",
   SERRALHEIRO = "Serralheiro",
   OBRAS = "Obras",
+  JARDINEIRO = "Jardineiro",
   ALMOXARIFADO = "Almoxarifado",
   ENCANAMENTO = "Encanador",
   MANUTENCAO = "Manutenção",

@@ -24,6 +24,8 @@ export const needsJobComplement = (job: JobEnum): job is JobWithComplement => {
 
 // Mapeamento de complementos válidos
 
+// Obs. Completar Auxiliares
+
 export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
 
   [JobEnum.TECNICO]: [
@@ -40,6 +42,7 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.SOLDADOR,
     JobComplementEnum.SERRALHEIRO,
     JobComplementEnum.MECANICO,
+    JobComplementEnum.JARDINEIRO,
   ],
   [JobEnum.ENCARREGADO]: [
     JobComplementEnum.ELETRICISTA,
@@ -54,34 +57,23 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.PEDREIRO,
     JobComplementEnum.PINTOR,
     JobComplementEnum.GESSEIRO,
-    JobComplementEnum.OBRAS,
     JobComplementEnum.SOLDADOR,
     JobComplementEnum.SERRALHEIRO,
     JobComplementEnum.MECANICO,
+    JobComplementEnum.JARDINEIRO,
   ],
-  [JobEnum.AUXILIAR]: [
-    JobComplementEnum.ALMOXARIFADO,
-    JobComplementEnum.CARPINTEIRO,
-    JobComplementEnum.ELETRICISTA,
-    JobComplementEnum.ENCANAMENTO,
-    JobComplementEnum.PINTOR,
-    JobComplementEnum.GESSEIRO,
-    JobComplementEnum.OBRAS,
-    JobComplementEnum.SOLDADOR,
-    JobComplementEnum.SERRALHEIRO,
-    JobComplementEnum.MANUTENCAO_PREDIAL
+  [JobEnum.AUXILIAR]: [ 
+    JobComplementEnum.MANUTENCAO_PREDIAL,
+    JobComplementEnum.INSTALADOR_REFRIGERACAO,
   ],
   [JobEnum.AJUDANTE]: [
-    JobComplementEnum.ALMOXARIFADO,
-    JobComplementEnum.CARPINTEIRO,
     JobComplementEnum.ELETRICISTA,
-    JobComplementEnum.ENCANAMENTO,
-    JobComplementEnum.PINTOR,
-    JobComplementEnum.GESSEIRO,
-    JobComplementEnum.OBRAS,
-    JobComplementEnum.SOLDADOR,
-    JobComplementEnum.SERRALHEIRO,
+    JobComplementEnum.JARDINEIRO,
     JobComplementEnum.MECANICO,
+    JobComplementEnum.OBRAS,
+    JobComplementEnum.PINTOR,
+    JobComplementEnum.SERRALHEIRO,
+    JobComplementEnum.SOLDADOR,
   ],
 
   [JobEnum.MECANICO]: [],
