@@ -226,7 +226,8 @@ const ProposalForm = ({ onSubmit, onGenerateAll }: ProposalFormProps) => {
           />
 
           <div className="w-6/12 min-w-[280px] mx-auto">
-            <Button type="submit" size="lg" className="w-full cursor-pointer">
+            <Button type="submit" size="lg" 
+              variant="secondary" className="w-full cursor-pointer text-black">
               Gerar Proposta
             </Button>
           </div>

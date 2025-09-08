@@ -262,7 +262,8 @@ const ProposalSelecter = ({ onSubmit, onGenerateAll }: ProposalSelecterProps) =>
 
           <div className="w-6/12 min-w-[280px] mx-auto">
             <Button 
-              type="submit" 
+              type="submit"
+              variant="secondary" 
               size="lg" 
               className="w-full cursor-pointer"
               disabled={isSubmitDisabled}
