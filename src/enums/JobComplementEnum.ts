@@ -4,7 +4,6 @@ export enum JobComplementEnum {
   PEDREIRO = "Pedreiro",
   PINTOR = "Pintor",
   GESSEIRO = "Gesseiro",
-  REJUNTADOR = "Rejuntador",
   ELETRICISTA = "Eletricista",
   SOLDADOR = "Soldador",
   SERRALHEIRO = "Serralheiro",
