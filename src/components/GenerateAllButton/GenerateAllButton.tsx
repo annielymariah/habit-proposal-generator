@@ -83,6 +83,7 @@ const GenerateAllButton = ({ onGenerateAll, className }: GenerateAllButtonProps)
         className="w-full cursor-pointer"
         onClick={generateAllProposals}
         size={"lg"}
+        disabled
       >
         Gerar Todas as Propostas (Total: {totalProposals})
       </Button>
