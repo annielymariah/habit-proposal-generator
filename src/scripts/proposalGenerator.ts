@@ -92,7 +92,7 @@ export function generateProposal(values: ProcessedFormValues): string {
 ➡ Seguro de vida.
 ➡ Auxílio Transporte, considerando o valor de R$09,90 por dia útil trabalhado.
 ${vr}
-➡  ${assiduidade}R$ de Prêmio Assiduidade, por mês completo de trabalho.
+➡ ${assiduidade}R$ de Prêmio Assiduidade, por mês completo de trabalho.
 ➡ Convênio BR5 assim que finalizado a admissão.
 ${adicionais ? adicionais : ""}
 
