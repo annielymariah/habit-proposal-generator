@@ -28,12 +28,12 @@ export function generateProposal(values: ProcessedFormValues): string {
   };
 
   const vrTable: Record<string, string | number> = {
-    "Sorriso, Mato Grosso": "Alimentação local",
-    "Cuiabá, Mato Grosso": 16,
-    "Rondonópolis, Mato Grosso": 20,
-    "Sinop, Mato Grosso": 20,
-    "Alta Floresta, Mato Grosso": 20,
-    "Patos, Paraíba": 20,
+    "Sorriso, Mato Grosso": "➡ Fornecemos almoço no local de segunda a sexta-feira e café da manhã de segunda a sábado.",
+    "Cuiabá, Mato Grosso": "➡ Vale Refeição, considerando o valor de 16,00 por dia útil trabalhado.",
+    "Rondonópolis, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
+    "Sinop, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
+    "Alta Floresta, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
+    "Patos, Paraíba": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
   };
 
   const getSchedules = (location: string) => {
@@ -86,7 +86,8 @@ export function generateProposal(values: ProcessedFormValues): string {
 *Oferecemos:*
 ➡ Seguro de vida.
 ➡ Almoço e café da manhã conforme regras.
-➡ Auxílio Transporte e VR: ${vr}.
+➡ Auxílio Transporte, considerando o valor de R$09,90 por dia útil trabalhado.
+${vr}
 ➡ Prêmio Assiduidade: R$ ${assiduidade}.
 ➡ Convênio BR5.
 ${adicionais ? adicionais : ""}
