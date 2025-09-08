@@ -9,7 +9,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Vigia": 1779,
     "Motoboy - Nível I": 2389,
     "Motoboy - Nível II": 2389,
-    "Motoboy - Nível III": 2389,
+    "Motoboy - Nível III": 2389,  
     "Operador de Trator - Nível I": 1925,
     "Operador de Trator - Nível II": 2389,
     "Operador de Trator - Nível III": 2389,
@@ -51,34 +51,35 @@ export function generateProposal(values: ProcessedFormValues): string {
     };
   };
 
-  const getAssiduidade = (job: string) => (job.toLowerCase().includes("ajudante") ? 395 : 250);
+  const getAttendance = (job: string) => (job.toLowerCase().includes("ajudante") ? 395 : 250);
 
-  const getAdicionais = (job: string, jobComplement?: string) => {
-    const adicionais: string[] = [];
+  const getAddictionals = (job: string, jobComplement?: string) => {
+    const addictionals: string[] = [];
     const jobLower = job.toLowerCase();
     const complementLower = jobComplement?.toLowerCase() || "";
 
     if (jobLower.includes("eletricista") || complementLower.includes("eletricista")) {
-      adicionais.push("➡ 30% de periculosidade sobre o salário base.");
+      addictionals.push("➡ 30% de periculosidade sobre o salário base.");
     }
     if (jobLower.includes("encanador") || complementLower.includes("encanador")) {
-      adicionais.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
+      addictionals.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
     }
     if (complementLower.includes("serralheiro")) {
-      adicionais.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
+      addictionals.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
     }
     if (jobLower.includes("técnico") || (jobLower.includes("eletricista") || jobLower.includes("encarregado") || 
-    jobLower.includes("meio-oficial") || jobLower.includes("ajudante") || jobLower.includes("profissional")) && (!complementLower.includes("mecânico") || !complementLower.includes("almoxarifado"))) {
-      adicionais.push("➡ Prêmio por atividades excepcionais.");
+    jobLower.includes("meio-oficial") || jobLower.includes("ajudante") || jobLower.includes("profissional")) 
+    && (!complementLower.includes("mecânico") || !complementLower.includes("almoxarifado"))) {
+      addictionals.push("➡ Prêmio por atividades excepcionais.");
     }
 
-    return adicionais.join("\n");
+    return addictionals.join("\n");
   };
 
   const salary = salaryTable[values.job] || 0;
   const vr = vrTable[values.location] || 0;
-  const assiduidade = getAssiduidade(values.finalJob);
-  const adicionais = getAdicionais(values.finalJob, values.jobComplement);
+  const attendance = getAttendance(values.finalJob);
+  const addictionals = getAddictionals(values.finalJob, values.jobComplement);
   const schedule = getSchedules(values.location);
 
   return `
@@ -94,9 +95,9 @@ export function generateProposal(values: ProcessedFormValues): string {
 ➡ Auxílio Transporte, considerando o valor de 09,90R$ por dia útil trabalhado.
 ${vr}
 ➡ Fornecemos café da manhã no local de trabalho de segunda a sábado.
-➡ ${assiduidade}R$ de Prêmio Assiduidade, por mês completo de trabalho.
+➡ ${attendance}R$ de Prêmio Assiduidade, por mês completo de trabalho.
 ➡ Convênio BR5 assim que finalizado a admissão.
-${adicionais ? adicionais : ""}
+${addictionals ? addictionals : ""}
 
 *Horário de trabalho*
 ➡ De segunda a sexta, das ${schedule.weekday.start} ás ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.

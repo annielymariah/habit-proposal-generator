@@ -260,7 +260,7 @@ const ProposalSelecter = ({ onSubmit, onGenerateAll }: ProposalSelecterProps) =>
             )}
           />
 
-          <div className="w-6/12 min-w-[280px] mx-auto">
+          <div className="w-6/12 min-w-[280px] mx-auto text-black">
             <Button 
               type="submit"
               variant="secondary" 
