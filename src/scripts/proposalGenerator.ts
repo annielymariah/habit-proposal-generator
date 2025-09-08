@@ -82,7 +82,7 @@ export function generateProposal(values: ProcessedFormValues): string {
 *PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toLocaleUpperCase()}:*
 🔸Local: ${values.location.toUpperCase()}.
 🔸Função: ${values.finalJob}.
-🔸Salário base de  ${salary}R$.
+🔸Salário base de ${salary}R$.
 🔸Modalidade ${values.modality}.
 🔸Contratação ${values.contractType}.
 
