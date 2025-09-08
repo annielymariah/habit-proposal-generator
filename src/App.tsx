@@ -1,10 +1,10 @@
 import Header from "./components/Header/Header";
-import ProposalForm from "./components/ProposalForm/ProposalForm";
+// import ProposalForm from "./components/ProposalForm/ProposalForm";
 import { generateProposal } from "./scripts/proposalGenerator";
 import { type ProcessedFormValues } from "./schemas/formSchemas";
+import ProposalSelecter from "./components/ProposalSelecter/ProposalSelecter";
 
 function App() {
-
   const downloadTxtFile = (content: string, filename: string) => {
     const element = document.createElement("a");
     const file = new Blob([content], { type: "text/plain" });
@@ -15,28 +15,32 @@ function App() {
     document.body.removeChild(element);
   };
 
- const handleSubmit = (values: ProcessedFormValues) => {
-  console.log("Proposta única:", values);
+  const handleSubmit = (values: ProcessedFormValues) => {
+    console.log("Proposta única:", values);
 
-  const proposalText = generateProposal(values);
+    const proposalText = generateProposal(values);
 
-  console.log(proposalText);
+    console.log(proposalText);
 
-  downloadTxtFile(
-    proposalText,
-    `${values.job}-${values.contractType}-${values.location}-${Date.now()}.txt`
-  );
-};
+    downloadTxtFile(
+      proposalText,
+      `${values.job}-${values.contractType}-${
+        values.location
+      }-${Date.now()}.txt`
+    );
+  };
   const handleGenerateAll = async (allProposals: ProcessedFormValues[]) => {
     console.log("Enviando todas as propostas:", allProposals.length);
 
-    allProposals.forEach(proposals => {
-        const proposalText = generateProposal(proposals);
-    downloadTxtFile(
-      proposalText,
-      `${proposals.job}-${proposals.contractType}-${proposals.location}-${Date.now()}.txt`
-    );    
-  });
+    allProposals.forEach((proposals) => {
+      const proposalText = generateProposal(proposals);
+      downloadTxtFile(
+        proposalText,
+        `${proposals.job}-${proposals.contractType}-${
+          proposals.location
+        }-${Date.now()}.txt`
+      );
+    });
   };
 
   return (
@@ -47,7 +51,12 @@ function App() {
           Gerador de Propostas
         </h1>
 
-        <ProposalForm
+        {/*<ProposalForm
+          onSubmit={handleSubmit}
+          onGenerateAll={handleGenerateAll}
+        />*/}
+
+        <ProposalSelecter
           onSubmit={handleSubmit}
           onGenerateAll={handleGenerateAll}
         />

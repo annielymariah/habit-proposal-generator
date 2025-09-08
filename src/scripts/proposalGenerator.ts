@@ -2,12 +2,12 @@ import { type ProcessedFormValues } from "@/schemas/formSchemas";
 
 export function generateProposal(values: ProcessedFormValues): string {
   const salaryTable: Record<string, number> = {
-    Almoxarife: 2389,
+    "Almoxarife": 2389,
     "Auxiliar de Almoxarifado": 1925,
-    Apontador: 1925,
-    Eletricista: 2469,
-    Encanador: 2469,
-    Vigia: 1779,
+    "Apontador": 1925,
+    "Eletricista": 2469,
+    "Encanador": 2469,
+    "Vigia": 1779,
     "Motoboy I": 2389,
     "Motoboy II": 2389,
     "Motoboy III": 2389,
@@ -20,11 +20,11 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Desenvolvedor Junior": 1518,
     "Desenvolvedor Pleno": 2000,
     "Desenvolvedor Senior": 2500,
-    Encarregado: 3195,
+    "Encarregado": 3195,
     "Meio-Oficial": 1925,
-    Auxiliar: 1925,
-    Ajudante: 1779,
-    Profissional: 2389,
+    "Auxiliar": 1925,
+    "Ajudante": 1779,
+    "Profissional": 2389,
   };
 
   const vrTable: Record<string, string | number> = {
@@ -69,18 +69,19 @@ export function generateProposal(values: ProcessedFormValues): string {
     return adicionais.join("\n");
   };
 
-  const salary = salaryTable[values.finalJob] || 0;
+  const salary = salaryTable[values.job] || 0;
   const vr = vrTable[values.location] || 0;
   const assiduidade = getAssiduidade(values.finalJob);
   const adicionais = getAdicionais(values.finalJob, values.jobComplement);
   const schedule = getSchedules(values.location);
 
   return `
-*PROPOSTA DE TRABALHO PARA ${values.finalJob}${values.jobComplement ? ` (${values.jobComplement})` : ""} EM ${values.location}:*
-🔸Local: ${values.location}.
+*PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toLocaleUpperCase()}:*
+🔸Local: ${values.location.toUpperCase()}.
 🔸Função: ${values.finalJob}.
 🔸Salário base de R$ ${salary}.
 🔸Modalidade ${values.modality}.
+🔸Contratação ${values.contractType}.
 
 *Oferecemos:*
 ➡ Seguro de vida.
@@ -91,8 +92,8 @@ export function generateProposal(values: ProcessedFormValues): string {
 ${adicionais ? adicionais : ""}
 
 *Horário de trabalho*
-➡ Seg-Sex: ${schedule.weekday.start}-${schedule.weekday.end}, intervalo ${schedule.weekday.break}.
-➡ Sáb: ${schedule.saturday.start}-${schedule.saturday.end}.
+➡ De segunda a sexta, das ${schedule.weekday.start} ás ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.
+➡ Aos sábados ${schedule.saturday.start}-${schedule.saturday.end}, sem intervalos.
 
 Proposta válida por 15 dias.
 `;
