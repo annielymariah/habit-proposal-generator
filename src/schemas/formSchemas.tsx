@@ -33,7 +33,6 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.INSTALADOR_REFRIGERACAO,
   ],
   [JobEnum.PROFISSIONAL]: [
-    JobComplementEnum.ALMOXARIFADO,
     JobComplementEnum.ARMADOR,
     JobComplementEnum.CARPINTEIRO,
     JobComplementEnum.PEDREIRO,

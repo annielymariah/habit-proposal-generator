@@ -80,6 +80,7 @@ const GenerateAllButton = ({ onGenerateAll, className }: GenerateAllButtonProps)
     <div className={className}>
       <Button 
         type="button" 
+        variant={"ghost"}
         className="w-full cursor-pointer"
         onClick={generateAllProposals}
         size={"lg"}
