@@ -5,7 +5,6 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Almoxarife": 2389,
     "Auxiliar de Almoxarifado": 1925,
     "Apontador": 1925,
-    "Eletricista": 2469,
     "Encanador": 2469,
     "Vigia": 1779,
     "Motoboy I": 2389,
@@ -20,6 +19,9 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Desenvolvedor Junior": 1518,
     "Desenvolvedor Pleno": 2000,
     "Desenvolvedor Senior": 2500,
+
+    
+    "Eletricista": 2469,
     "Encarregado": 3195,
     "Meio-Oficial": 1925,
     "Auxiliar": 1925,
@@ -65,6 +67,9 @@ export function generateProposal(values: ProcessedFormValues): string {
     if (complementLower.includes("serralheiro")) {
       adicionais.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
     }
+    if (jobLower.includes("encarregado") && jobLower.includes("meio-oficial") && jobLower.includes("ajudante") && jobLower.includes("profissional")) {
+      adicionais.push("➡ Prêmio por atividades excepcionais.");
+    }
 
     return adicionais.join("\n");
   };
@@ -85,17 +90,16 @@ export function generateProposal(values: ProcessedFormValues): string {
 
 *Oferecemos:*
 ➡ Seguro de vida.
-➡ Almoço e café da manhã conforme regras.
 ➡ Auxílio Transporte, considerando o valor de R$09,90 por dia útil trabalhado.
 ${vr}
-➡ Prêmio Assiduidade: R$ ${assiduidade}.
-➡ Convênio BR5.
+➡  ${assiduidade}R$ de Prêmio Assiduidade, por mês completo de trabalho.
+➡ Convênio BR5 assim que finalizado a admissão.
 ${adicionais ? adicionais : ""}
 
 *Horário de trabalho*
 ➡ De segunda a sexta, das ${schedule.weekday.start} ás ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.
 ➡ Aos sábados, das ${schedule.saturday.start} ás ${schedule.saturday.end}, sem intervalos.
 
-Proposta válida por 15 dias.
+Proposta válida por 15 dias após a admissão.
 `;
 }
