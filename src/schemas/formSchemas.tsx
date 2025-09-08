@@ -15,7 +15,6 @@ export const JOBS_WITH_REQUIRED_COMPLEMENT = [
   JobEnum.AJUDANTE,
   JobEnum.PROFISSIONAL,
   JobEnum.MOTORISTA_B,
-  JobEnum.MOTORISTA_D,
   JobEnum.MOTOBOY,
   JobEnum.OPERADOR_TRATOR,
   JobEnum.ASSISTENTE_ADMIN,
@@ -97,9 +96,6 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
   ],
 
     [JobEnum.MOTORISTA_D]: [
-    JobComplementEnum.NIVEL_1,
-    JobComplementEnum.NIVEL_2,
-    JobComplementEnum.NIVEL_3,
   ],
 
   [JobEnum.MOTOBOY]: [

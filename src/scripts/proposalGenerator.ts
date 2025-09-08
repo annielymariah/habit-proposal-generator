@@ -16,7 +16,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     Mecânico: 3000,
     Motoboy: 1925,
     "Motorista (Cat. B)": 2389,
-    "Motorista (Cat. D)": 2478.60,
+    "Motorista (Cat. D)": 2478.6,
     "Operador de Trator": 1925,
   };
 
@@ -37,13 +37,16 @@ export function generateProposal(values: ProcessedFormValues): string {
 
   const jobLower = values.finalJob.toLowerCase();
   const complementLower = values.jobComplement?.toLowerCase() || "";
-  
+
   if (jobLower.includes("motoboy") || jobLower.includes("operador de trator")) {
-    if (complementLower.includes("nível 2") || complementLower.includes("nível 3")) {
+    if (
+      complementLower.includes("nível 2") ||
+      complementLower.includes("nível 3")
+    ) {
       salaryTable["Motoboy"] = 2389;
       salaryTable["Operador de Trator"] = 2389;
     } else {
-      salaryTable["Motoboy"] = 1925; 
+      salaryTable["Motoboy"] = 1925;
       salaryTable["Operador de Trator"] = 2389;
     }
   }
@@ -71,7 +74,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     const addictionals: string[] = [];
     const jobLower = job.toLowerCase();
     const complementLower = jobComplement?.toLowerCase() || "";
-    
+
     if (
       jobLower.includes("eletricista") ||
       complementLower.includes("eletricista") ||
@@ -115,18 +118,37 @@ export function generateProposal(values: ProcessedFormValues): string {
         "➡ Fornecemos café da manhã no local de trabalho de segunda a sábado."
       );
     }
-
-    if ((jobLower.includes("motoboy") || jobLower.includes("operador de trator")) && complementLower.includes("nível 1")) {
+    if (
+      jobLower.includes("motorista (cat. b)") ||
+      jobLower.includes("motorista (cat. d)")
+    ) {
+      addictionals.push(
+        "➡ 500R$ de Prêmio por entrega de checklist do veículo (mensal)."
+      );
+    }
+    if (
+      (jobLower.includes("motoboy") ||
+        jobLower.includes("operador de trator")) &&
+      complementLower.includes("nível 1")
+    ) {
       addictionals.push(
         "➡ 100R$ de Prêmio por entrega de checklist do veículo (mensal)."
       );
     }
-    if ((jobLower.includes("motoboy") || jobLower.includes("operador de trator")) && complementLower.includes("nível 2")) {
+    if (
+      (jobLower.includes("motoboy") ||
+        jobLower.includes("operador de trator")) &&
+      complementLower.includes("nível 2")
+    ) {
       addictionals.push(
         "➡ 200R$ de Prêmio por entrega de checklist do veículo (mensal)."
       );
     }
-    if ((jobLower.includes("motoboy") || jobLower.includes("operador de trator")) && complementLower.includes("nível 3")) {
+    if (
+      (jobLower.includes("motoboy") ||
+        jobLower.includes("operador de trator")) &&
+      complementLower.includes("nível 3")
+    ) {
       addictionals.push(
         "➡ 300R$ de Prêmio por entrega de checklist do veículo (mensal)."
       );
