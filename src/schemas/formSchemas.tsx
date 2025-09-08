@@ -8,6 +8,7 @@ import {
 } from "../enums";
 
 export const JOBS_WITH_REQUIRED_COMPLEMENT = [
+  JobEnum.TECNICO,
   JobEnum.ENCARREGADO,
   JobEnum.MEIO_OFICIAL,
   JobEnum.AUXILIAR,
