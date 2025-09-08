@@ -1,7 +1,6 @@
 import { type ProcessedFormValues } from "@/schemas/formSchemas";
 
 export function generateProposal(values: ProcessedFormValues): string {
-
   const salaryTable: Record<string, number> = {
     Almoxarife: 2389,
     Apontador: 1925,
@@ -19,6 +18,8 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Motorista (Cat. B)": 2389,
     "Motorista (Cat. D)": 2478.6,
     "Operador de Trator": 1925,
+    Desenvolvedor: 1518,
+    "Assistente Administrativo": 2000,
   };
 
   const vrTable: Record<string, string> = {
@@ -36,19 +37,25 @@ export function generateProposal(values: ProcessedFormValues): string {
       "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
   };
 
-  const scheduleTable: Record<string, { weekday: { start: string; end: string; break: string }; saturday: { start: string; end: string } }> = {
+  const scheduleTable: Record<
+    string,
+    {
+      weekday: { start: string; end: string; break: string };
+      saturday: { start: string; end: string };
+    }
+  > = {
     "Sorriso, Mato Grosso": {
       weekday: { start: "07:30", end: "16:30", break: "1h" },
-      saturday: { start: "07:30", end: "11:30" }
+      saturday: { start: "07:30", end: "11:30" },
     },
     "Cuiabá, Mato Grosso": {
       weekday: { start: "07:30", end: "16:30", break: "1h" },
-      saturday: { start: "07:30", end: "11:30" }
+      saturday: { start: "07:30", end: "11:30" },
     },
-    "default": {
+    default: {
       weekday: { start: "07:00", end: "17:00", break: "2h" },
-      saturday: { start: "07:00", end: "11:00" }
-    }
+      saturday: { start: "07:00", end: "11:00" },
+    },
   };
 
   // Benefícios
@@ -57,26 +64,31 @@ export function generateProposal(values: ProcessedFormValues): string {
     periculosidade: [
       "eletricista",
       "instalador de equipamentos de refrigeração e ventilação",
-      "motoboy"
+      "motoboy",
     ],
-    insalubridade: [
-      "encanador",
-      "serralheiro"
-    ],
+    insalubridade: ["encanador", "serralheiro"],
     premioAtividades: [
-      "técnico", "eletricista", "encarregado", "meio-oficial", 
-      "ajudante", "profissional"
+      "técnico",
+      "eletricista",
+      "encarregado",
+      "meio-oficial",
+      "ajudante",
+      "profissional",
     ],
     cafeManha: [
-      "técnico", "eletricista", "encarregado", "meio-oficial", 
-      "ajudante", "profissional"
-    ]
+      "técnico",
+      "eletricista",
+      "encarregado",
+      "meio-oficial",
+      "ajudante",
+      "profissional",
+    ],
   };
 
   const checklistPremiums: Record<string, number> = {
     "nível 1": 100,
     "nível 2": 200,
-    "nível 3": 300
+    "nível 3": 300,
   };
 
   const motoristaPremium = 500;
@@ -85,16 +97,36 @@ export function generateProposal(values: ProcessedFormValues): string {
 
   const jobLower = values.finalJob.toLowerCase();
   const complementLower = values.jobComplement?.toLowerCase() || "";
-  
+
   const nivelJobs = ["motoboy", "operador de trator"];
-  const hasNivelJob = nivelJobs.some(job => jobLower.includes(job));
-  
+  const positionJobs = ["desenvolvedor", "assistente administrativo"];
+  const hasNivelJob = nivelJobs.some((job) => jobLower.includes(job));
+  const hasPositionJob = positionJobs.some((job) => jobLower.includes(job));
+
   if (hasNivelJob) {
-    const isNivel2Or3 = complementLower.includes("nível 2") || complementLower.includes("nível 3");
+    const isNivel2Or3 =
+      complementLower.includes("nível 2") ||
+      complementLower.includes("nível 3");
     const adjustedSalary = isNivel2Or3 ? 2389 : 1925;
-    
     if (jobLower.includes("motoboy")) salaryTable["Motoboy"] = adjustedSalary;
-    if (jobLower.includes("operador de trator")) salaryTable["Operador de Trator"] = adjustedSalary;
+    if (jobLower.includes("operador de trator"))
+      salaryTable["Operador de Trator"] = adjustedSalary;
+  }
+
+  if (hasPositionJob) {
+    if (complementLower.includes("pleno")) {
+      if (jobLower.includes("desenvolvedor"))
+        salaryTable["Desenvolvedor"] = 2000;
+      if (jobLower.includes("assistente administrativo"))
+        salaryTable["Assistente Administrativo"] = 2500;
+    }
+    if (complementLower.includes("sênior")) {
+      const adjustedSalary = 2500;
+      if (jobLower.includes("desenvolvedor"))
+        salaryTable["Desenvolvedor"] = adjustedSalary;
+      if (jobLower.includes("assistente administrativo"))
+        salaryTable["Assistente Administrativo"] = adjustedSalary;
+    }
   }
 
   // Funções auxiliares
@@ -103,17 +135,18 @@ export function generateProposal(values: ProcessedFormValues): string {
     return scheduleTable[location] || scheduleTable.default;
   };
 
-  const getAttendance = (job: string) => 
+  const getAttendance = (job: string) =>
     job.toLowerCase().includes("ajudante") ? 395 : 250;
 
-  const hasAnyKeyword = (text: string, keywords: string[]) => 
-    keywords.some(keyword => text.includes(keyword));
+  const hasAnyKeyword = (text: string, keywords: string[]) =>
+    keywords.some((keyword) => text.includes(keyword));
 
   const getAddictionals = (job: string, jobComplement?: string) => {
     const addictionals: string[] = [];
     const jobText = job.toLowerCase();
     const complementText = jobComplement?.toLowerCase() || "";
     const fullText = `${jobText} ${complementText}`;
+    
 
     // Periculosidade
 
@@ -124,15 +157,20 @@ export function generateProposal(values: ProcessedFormValues): string {
     // Insalubridade
 
     if (hasAnyKeyword(fullText, benefitsConfig.insalubridade)) {
-      addictionals.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
+      addictionals.push(
+        "➡ 20% de insalubridade sobre o salário mínimo vigente."
+      );
     }
 
     // Prêmio por atividades excepcionais e café da manhã
 
-    const shouldAddPremium = hasAnyKeyword(fullText, benefitsConfig.premioAtividades) || 
-      (jobText.includes("auxiliar") && 
-       complementText.includes("instalador de equipamentos de refrigeração e ventilação") &&
-       !hasAnyKeyword(complementText, ["mecânico", "almoxarifado"]));
+    const shouldAddPremium =
+      hasAnyKeyword(fullText, benefitsConfig.premioAtividades) ||
+      (jobText.includes("auxiliar") &&
+        complementText.includes(
+          "instalador de equipamentos de refrigeração e ventilação"
+        ) &&
+        !hasAnyKeyword(complementText, ["mecânico", "almoxarifado"]));
 
     if (shouldAddPremium) {
       addictionals.push(
@@ -144,7 +182,9 @@ export function generateProposal(values: ProcessedFormValues): string {
     // Prêmios de checklist para motoristas
 
     if (jobText.includes("motorista")) {
-      addictionals.push(`➡ R$${motoristaPremium} de Prêmio por entrega de checklist do veículo (mensal).`);
+      addictionals.push(
+        `➡ R$${motoristaPremium} de Prêmio por entrega de checklist do veículo (mensal).`
+      );
     }
 
     // Prêmios de checklist para motoboy e operador de trator
@@ -153,22 +193,35 @@ export function generateProposal(values: ProcessedFormValues): string {
     if (hasAnyKeyword(jobText, nivelJobs)) {
       for (const [nivel, premio] of Object.entries(checklistPremiums)) {
         if (complementText.includes(nivel)) {
-          addictionals.push(`➡ R$${premio} de Prêmio por entrega de checklist do veículo (mensal).`);
+          addictionals.push(
+            `➡ R$${premio} de Prêmio por entrega de checklist do veículo (mensal).`
+          );
         }
       }
     }
+    return addictionals;
+  }
+const salary = salaryTable[values.job] || 0;
+const vr = vrTable[values.location] || "";
+const attendance = getAttendance(values.finalJob);
+const addictionals = getAddictionals(values.finalJob, values.jobComplement);
+const schedule = getSchedules(values.location);
 
-    return addictionals.join("\n");
-  };
+let modalityBenefits = "";
 
-  const salary = salaryTable[values.job] || 0;
-  const vr = vrTable[values.location] || "";
-  const attendance = getAttendance(values.finalJob);
-  const addictionals = getAddictionals(values.finalJob, values.jobComplement);
-  const schedule = getSchedules(values.location);
+if (values.modality.toLowerCase() === "presencial") {
+  modalityBenefits = `
+➡ Auxílio Transporte, considerando o valor de R$09,90 por dia útil trabalhado.
+${vr}
+➡ R$${attendance} de Prêmio Assiduidade, por mês completo de trabalho.
+➡ Convênio BR5 assim que finalizado a admissão.`;
+} else {
+  const auxHomeOffice = 896; 
+  modalityBenefits = `➡ Auxílio homeoffice de R$${auxHomeOffice}
+➡ Convênio BR5 assim que finalizado a admissão.`;
+}
 
-  return `
-*PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toUpperCase()}:*
+return `*PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toUpperCase()}:*
 🔸Local: ${values.location.toUpperCase()}.
 🔸Função: ${values.finalJob}.
 🔸Salário base de R$${salary}.
@@ -177,16 +230,11 @@ export function generateProposal(values: ProcessedFormValues): string {
 
 *Oferecemos:*
 ➡ Seguro de vida.
-➡ Auxílio Transporte, considerando o valor de R$09,90 por dia útil trabalhado.
-${vr}
-➡ R$${attendance} de Prêmio Assiduidade, por mês completo de trabalho.
-➡ Convênio BR5 assim que finalizado a admissão.
-${addictionals ? addictionals : ""}
-
+${modalityBenefits}
+${addictionals.length ? addictionals.join("\n") : ""}
 *Horário de trabalho*
-➡ De segunda a sexta, das ${schedule.weekday.start} ás ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.
-➡ Aos sábados, das ${schedule.saturday.start} ás ${schedule.saturday.end}, sem intervalos.
+➡ De segunda a sexta, das ${schedule.weekday.start} às ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.
+➡ Aos sábados, das ${schedule.saturday.start} às ${schedule.saturday.end}, sem intervalos.
 
 Proposta válida por 15 dias após envio.
-`;
-}
+`};
