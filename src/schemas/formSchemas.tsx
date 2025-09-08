@@ -28,6 +28,7 @@ export const needsJobComplement = (job: JobEnum): job is JobWithComplement => {
 };
 
 // Mapeamento de complementos válidos
+
 // Obs. Completar Auxiliares
 
 export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
