@@ -31,11 +31,11 @@ export function generateProposal(values: ProcessedFormValues): string {
 
   const vrTable: Record<string, string | number> = {
     "Sorriso, Mato Grosso": "➡ Fornecemos almoço no local de segunda a sexta-feira e café da manhã de segunda a sábado.",
-    "Cuiabá, Mato Grosso": "➡ Vale Refeição, considerando o valor de 16,00 por dia útil trabalhado.",
-    "Rondonópolis, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
-    "Sinop, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
-    "Alta Floresta, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
-    "Patos, Paraíba": "➡ Vale Refeição, considerando o valor de 20,00 por dia útil trabalhado.",
+    "Cuiabá, Mato Grosso": "➡ Vale Refeição, considerando o valor de 16,00R$ por dia útil trabalhado.",
+    "Rondonópolis, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
+    "Sinop, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
+    "Alta Floresta, Mato Grosso": "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
+    "Patos, Paraíba": "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
   };
 
   const getSchedules = (location: string) => {
@@ -84,7 +84,7 @@ export function generateProposal(values: ProcessedFormValues): string {
 *PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toLocaleUpperCase()}:*
 🔸Local: ${values.location.toUpperCase()}.
 🔸Função: ${values.finalJob}.
-🔸Salário base de R$ ${salary}.
+🔸Salário base de  ${salary}R$.
 🔸Modalidade ${values.modality}.
 🔸Contratação ${values.contractType}.
 
