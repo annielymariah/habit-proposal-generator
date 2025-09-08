@@ -99,6 +99,6 @@ ${adicionais ? adicionais : ""}
 ➡ De segunda a sexta, das ${schedule.weekday.start} ás ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.
 ➡ Aos sábados, das ${schedule.saturday.start} ás ${schedule.saturday.end}, sem intervalos.
 
-Proposta válida por 15 dias após a admissão.
+Proposta válida por 15 dias após envio.
 `;
 }
