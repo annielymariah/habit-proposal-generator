@@ -67,7 +67,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     if (complementLower.includes("serralheiro")) {
       adicionais.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
     }
-    if (jobLower.includes("encarregado") && jobLower.includes("meio-oficial") && jobLower.includes("ajudante") && jobLower.includes("profissional")) {
+    if (jobLower.includes("encarregado") || jobLower.includes("meio-oficial") || jobLower.includes("ajudante") || jobLower.includes("profissional")) {
       adicionais.push("➡ Prêmio por atividades excepcionais.");
     }
 
