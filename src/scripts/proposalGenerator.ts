@@ -26,6 +26,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Ajudante": 1779,
     "Profissional": 2389,
     "Técnico": 2389,
+    "Mecânico": 3000,
   };
 
   const vrTable: Record<string, string | number> = {

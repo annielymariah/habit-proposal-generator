@@ -10,6 +10,8 @@ export enum JobComplementEnum {
   OBRAS = "Obras",
   ALMOXARIFADO = "Almoxarifado",
   ENCANAMENTO = "Encanador",
+  MANUTENCAO = "Manutenção",
   MANUTENCAO_PREDIAL = "Manutenção Predial",
   MECANICO = "Mecânico",
+  INSTALADOR_REFRIGERACAO = "Instalador de Equipamentos de Refrigeração e Ventilação",
 }

@@ -25,8 +25,10 @@ export const needsJobComplement = (job: JobEnum): job is JobWithComplement => {
 // Mapeamento de complementos válidos
 
 export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
+
   [JobEnum.TECNICO]: [
-    JobComplementEnum.MANUTENCAO_PREDIAL
+    JobComplementEnum.MANUTENCAO_PREDIAL,
+    JobComplementEnum.INSTALADOR_REFRIGERACAO,
   ],
   [JobEnum.PROFISSIONAL]: [
     JobComplementEnum.ALMOXARIFADO,
@@ -40,15 +42,9 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.MECANICO,
   ],
   [JobEnum.ENCARREGADO]: [
-    JobComplementEnum.ALMOXARIFADO,
-    JobComplementEnum.CARPINTEIRO,
     JobComplementEnum.ELETRICISTA,
-    JobComplementEnum.ENCANAMENTO,
-    JobComplementEnum.PINTOR,
-    JobComplementEnum.GESSEIRO,
     JobComplementEnum.OBRAS,
-    JobComplementEnum.SOLDADOR,
-    JobComplementEnum.SERRALHEIRO,
+    JobComplementEnum.MANUTENCAO,
   ],
   [JobEnum.MEIO_OFICIAL]: [
     JobComplementEnum.ALMOXARIFADO,
@@ -88,6 +84,7 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.MECANICO,
   ],
 
+  [JobEnum.MECANICO]: [],
   [JobEnum.ALMOXARIFE]: [],
   [JobEnum.APONTADOR]: [],
   [JobEnum.ELETRICISTA]: [],
