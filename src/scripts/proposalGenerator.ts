@@ -25,15 +25,15 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Sorriso, Mato Grosso":
       "➡ Fornecemos almoço no local de segunda a sexta-feira e café da manhã de segunda a sábado.",
     "Cuiabá, Mato Grosso":
-      "➡ Vale Refeição, considerando o valor de 16,00R$ por dia útil trabalhado.",
+      "➡ Vale Refeição, considerando o valor de R$16,00 por dia útil trabalhado.",
     "Rondonópolis, Mato Grosso":
-      "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
+      "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
     "Sinop, Mato Grosso":
-      "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
+      "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
     "Alta Floresta, Mato Grosso":
-      "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
+      "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
     "Patos, Paraíba":
-      "➡ Vale Refeição, considerando o valor de 20,00R$ por dia útil trabalhado.",
+      "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
   };
 
   const scheduleTable: Record<string, { weekday: { start: string; end: string; break: string }; saturday: { start: string; end: string } }> = {
@@ -51,7 +51,8 @@ export function generateProposal(values: ProcessedFormValues): string {
     }
   };
 
-  // Configuração de benefícios
+  // Benefícios
+
   const benefitsConfig = {
     periculosidade: [
       "eletricista",
@@ -80,7 +81,8 @@ export function generateProposal(values: ProcessedFormValues): string {
 
   const motoristaPremium = 500;
 
-  // Ajuste do salário
+  // Ajustes de salário
+
   const jobLower = values.finalJob.toLowerCase();
   const complementLower = values.jobComplement?.toLowerCase() || "";
   
@@ -96,6 +98,7 @@ export function generateProposal(values: ProcessedFormValues): string {
   }
 
   // Funções auxiliares
+
   const getSchedules = (location: string) => {
     return scheduleTable[location] || scheduleTable.default;
   };
@@ -113,16 +116,19 @@ export function generateProposal(values: ProcessedFormValues): string {
     const fullText = `${jobText} ${complementText}`;
 
     // Periculosidade
+
     if (hasAnyKeyword(fullText, benefitsConfig.periculosidade)) {
       addictionals.push("➡ 30% de periculosidade sobre o salário base.");
     }
 
     // Insalubridade
+
     if (hasAnyKeyword(fullText, benefitsConfig.insalubridade)) {
       addictionals.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
     }
 
     // Prêmio por atividades excepcionais e café da manhã
+
     const shouldAddPremium = hasAnyKeyword(fullText, benefitsConfig.premioAtividades) || 
       (jobText.includes("auxiliar") && 
        complementText.includes("instalador de equipamentos de refrigeração e ventilação") &&
@@ -136,16 +142,18 @@ export function generateProposal(values: ProcessedFormValues): string {
     }
 
     // Prêmios de checklist para motoristas
+
     if (jobText.includes("motorista")) {
-      addictionals.push(`➡ ${motoristaPremium}R$ de Prêmio por entrega de checklist do veículo (mensal).`);
+      addictionals.push(`➡ R$${motoristaPremium} de Prêmio por entrega de checklist do veículo (mensal).`);
     }
 
     // Prêmios de checklist para motoboy e operador de trator
+
     const nivelJobs = ["motoboy", "operador de trator"];
     if (hasAnyKeyword(jobText, nivelJobs)) {
       for (const [nivel, premio] of Object.entries(checklistPremiums)) {
         if (complementText.includes(nivel)) {
-          addictionals.push(`➡ ${premio}R$ de Prêmio por entrega de checklist do veículo (mensal).`);
+          addictionals.push(`➡ R$${premio} de Prêmio por entrega de checklist do veículo (mensal).`);
         }
       }
     }
@@ -153,27 +161,25 @@ export function generateProposal(values: ProcessedFormValues): string {
     return addictionals.join("\n");
   };
 
-  // Obtenção dos valores
   const salary = salaryTable[values.job] || 0;
   const vr = vrTable[values.location] || "";
   const attendance = getAttendance(values.finalJob);
   const addictionals = getAddictionals(values.finalJob, values.jobComplement);
   const schedule = getSchedules(values.location);
 
-  // Geração da proposta
   return `
 *PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toUpperCase()}:*
 🔸Local: ${values.location.toUpperCase()}.
 🔸Função: ${values.finalJob}.
-🔸Salário base de ${salary}R$.
+🔸Salário base de R$${salary}.
 🔸Modalidade ${values.modality}.
 🔸Contratação ${values.contractType}.
 
 *Oferecemos:*
 ➡ Seguro de vida.
-➡ Auxílio Transporte, considerando o valor de 09,90R$ por dia útil trabalhado.
+➡ Auxílio Transporte, considerando o valor de R$09,90 por dia útil trabalhado.
 ${vr}
-➡ ${attendance}R$ de Prêmio Assiduidade, por mês completo de trabalho.
+➡ R$${attendance} de Prêmio Assiduidade, por mês completo de trabalho.
 ➡ Convênio BR5 assim que finalizado a admissão.
 ${addictionals ? addictionals : ""}
 
