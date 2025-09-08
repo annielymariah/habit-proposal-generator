@@ -25,6 +25,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Auxiliar": 1925,
     "Ajudante": 1779,
     "Profissional": 2389,
+    "Técnico": 2389,
   };
 
   const vrTable: Record<string, string | number> = {
@@ -65,7 +66,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     if (complementLower.includes("serralheiro")) {
       adicionais.push("➡ 20% de insalubridade sobre o salário mínimo vigente.");
     }
-    if (jobLower.includes("eletricista") || jobLower.includes("encarregado") || jobLower.includes("meio-oficial") || jobLower.includes("ajudante") || jobLower.includes("profissional")) {
+    if (jobLower.includes("técnico") || (jobLower.includes("eletricista") || jobLower.includes("encarregado") || jobLower.includes("meio-oficial") || jobLower.includes("ajudante") || jobLower.includes("profissional")) {
       adicionais.push("➡ Prêmio por atividades excepcionais.");
     }
 

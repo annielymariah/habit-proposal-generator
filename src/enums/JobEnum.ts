@@ -21,4 +21,5 @@ export enum JobEnum {
   AUXILIAR = "Auxiliar",
   AJUDANTE = "Ajudante",
   PROFISSIONAL = "Profissional",
+  TECNICO = "Técnico",
 }
