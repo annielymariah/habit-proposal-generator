@@ -11,4 +11,5 @@ export enum JobComplementEnum {
   ALMOXARIFADO = "Almoxarifado",
   ENCANAMENTO = "Encanador",
   MANUTENCAO_PREDIAL = "Manutenção Predial",
+  MECANICO = "Mecânico",
 }

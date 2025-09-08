@@ -37,6 +37,7 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.GESSEIRO,
     JobComplementEnum.SOLDADOR,
     JobComplementEnum.SERRALHEIRO,
+    JobComplementEnum.MECANICO,
   ],
   [JobEnum.ENCARREGADO]: [
     JobComplementEnum.ALMOXARIFADO,
@@ -60,6 +61,7 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.OBRAS,
     JobComplementEnum.SOLDADOR,
     JobComplementEnum.SERRALHEIRO,
+    JobComplementEnum.MECANICO,
   ],
   [JobEnum.AUXILIAR]: [
     JobComplementEnum.ALMOXARIFADO,
@@ -83,6 +85,7 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.OBRAS,
     JobComplementEnum.SOLDADOR,
     JobComplementEnum.SERRALHEIRO,
+    JobComplementEnum.MECANICO,
   ],
 
   [JobEnum.ALMOXARIFE]: [],
