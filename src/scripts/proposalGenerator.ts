@@ -92,6 +92,7 @@ export function generateProposal(values: ProcessedFormValues): string {
 ➡ Seguro de vida.
 ➡ Auxílio Transporte, considerando o valor de 09,90R$ por dia útil trabalhado.
 ${vr}
+➡ Fornecemos café da manhã no local de trabalho de segunda a sábado.
 ➡ ${assiduidade}R$ de Prêmio Assiduidade, por mês completo de trabalho.
 ➡ Convênio BR5 assim que finalizado a admissão.
 ${adicionais ? adicionais : ""}
