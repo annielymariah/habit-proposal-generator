@@ -1,4 +1,5 @@
 export enum JobComplementEnum {
+
   ARMADOR = "Armador",
   CARPINTEIRO = "Carpinteiro",
   PEDREIRO = "Pedreiro",
@@ -12,7 +13,15 @@ export enum JobComplementEnum {
   ALMOXARIFADO = "Almoxarifado",
   ENCANAMENTO = "Encanador",
   MANUTENCAO = "Manutenção",
-  MANUTENCAO_PREDIAL = "Manutenção Predial",
   MECANICO = "Mecânico",
+  MANUTENCAO_PREDIAL = "Manutenção Predial",
   INSTALADOR_REFRIGERACAO = "Instalador de Equipamentos de Refrigeração e Ventilação",
+
+  NIVEL_1 = "Nível 1",
+  NIVEL_2 = "Nível 2",
+  NIVEL_3 = "Nível 3",
+
+  JUNIOR = "Júnior",
+  PLENO = "Pleno",
+  SENIOR = "Sênior",
 }

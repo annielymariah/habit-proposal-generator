@@ -14,6 +14,12 @@ export const JOBS_WITH_REQUIRED_COMPLEMENT = [
   JobEnum.AUXILIAR,
   JobEnum.AJUDANTE,
   JobEnum.PROFISSIONAL,
+  JobEnum.MOTORISTA_B,
+  JobEnum.MOTORISTA_D,
+  JobEnum.MOTOBOY,
+  JobEnum.OPERADOR_TRATOR,
+  JobEnum.ASSISTENTE_ADMIN,
+  JobEnum.DESENVOLVEDOR,
 ] as const;
 
 export type JobWithComplement = (typeof JOBS_WITH_REQUIRED_COMPLEMENT)[number];
@@ -23,10 +29,10 @@ export const needsJobComplement = (job: JobEnum): job is JobWithComplement => {
 };
 
 // Mapeamento de complementos válidos
-
 // Obs. Completar Auxiliares
 
 export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
+
 
   [JobEnum.TECNICO]: [
     JobComplementEnum.MANUTENCAO_PREDIAL,
@@ -65,6 +71,7 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.MANUTENCAO_PREDIAL,
     JobComplementEnum.INSTALADOR_REFRIGERACAO,
     JobComplementEnum.ALMOXARIFADO,
+    JobComplementEnum.ENCANAMENTO,
   ],
   [JobEnum.AJUDANTE]: [
     JobComplementEnum.ELETRICISTA,
@@ -82,18 +89,39 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
   [JobEnum.ELETRICISTA]: [],
   [JobEnum.ENCANADOR]: [],
   [JobEnum.VIGIA]: [],
-  [JobEnum.MOTOBOY_I]: [],
-  [JobEnum.MOTOBOY_II]: [],
-  [JobEnum.MOTOBOY_III]: [],
-  [JobEnum.OPERADOR_TRATOR_I]: [],
-  [JobEnum.OPERADOR_TRATOR_II]: [],
-  [JobEnum.OPERADOR_TRATOR_III]: [],
-  [JobEnum.ASSISTENTE_ADMIN_JUNIOR]: [],
-  [JobEnum.ASSISTENTE_ADMIN_PLENO]: [],
-  [JobEnum.ASSISTENTE_ADMIN_SENIOR]: [],
-  [JobEnum.DESENVOLVEDOR_JUNIOR]: [],
-  [JobEnum.DESENVOLVEDOR_PLENO]: [],
-  [JobEnum.DESENVOLVEDOR_SENIOR]: [],
+
+  [JobEnum.MOTORISTA_B]: [
+    JobComplementEnum.NIVEL_1,
+    JobComplementEnum.NIVEL_2,
+    JobComplementEnum.NIVEL_3,
+  ],
+
+    [JobEnum.MOTORISTA_D]: [
+    JobComplementEnum.NIVEL_1,
+    JobComplementEnum.NIVEL_2,
+    JobComplementEnum.NIVEL_3,
+  ],
+
+  [JobEnum.MOTOBOY]: [
+    JobComplementEnum.NIVEL_1,
+    JobComplementEnum.NIVEL_2,
+    JobComplementEnum.NIVEL_3,
+  ],
+  [JobEnum.OPERADOR_TRATOR]: [
+    JobComplementEnum.NIVEL_1,
+    JobComplementEnum.NIVEL_2,
+    JobComplementEnum.NIVEL_3,  
+  ],
+  [JobEnum.ASSISTENTE_ADMIN]: [
+    JobComplementEnum.JUNIOR,
+    JobComplementEnum.PLENO,
+    JobComplementEnum.SENIOR,
+  ],
+  [JobEnum.DESENVOLVEDOR]: [
+    JobComplementEnum.JUNIOR,
+    JobComplementEnum.PLENO,
+    JobComplementEnum.SENIOR,
+  ],
 };
 
 const requiredEnum = <T extends Record<string, string>>(
