@@ -24,7 +24,7 @@ function App() {
 
     downloadTxtFile(
       proposalText,
-      `${values.job}-${values.contractType}-${
+      `${values.finalJob}-${values.contractType}-${
         values.location
       }-${Date.now()}.txt`
     );
@@ -36,7 +36,7 @@ function App() {
       const proposalText = generateProposal(proposals);
       downloadTxtFile(
         proposalText,
-        `${proposals.job}-${proposals.contractType}-${
+        `${proposals.finalJob}-${proposals.contractType}-${
           proposals.location
         }-${Date.now()}.txt`
       );
