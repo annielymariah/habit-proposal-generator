@@ -231,6 +231,7 @@ return `*PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.
 *Oferecemos:*
 ➡ Seguro de vida.${modalityBenefits}
 ${addictionals.length ? addictionals.join("\n") : ""}
+
 *Horário de trabalho*
 ➡ De segunda a sexta, das ${schedule.weekday.start} às ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.
 ➡ Aos sábados, das ${schedule.saturday.start} às ${schedule.saturday.end}, sem intervalos.
