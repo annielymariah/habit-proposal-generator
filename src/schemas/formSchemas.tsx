@@ -19,6 +19,7 @@ export const JOBS_WITH_REQUIRED_COMPLEMENT = [
   JobEnum.OPERADOR_TRATOR,
   JobEnum.ASSISTENTE_ADMIN,
   JobEnum.DESENVOLVEDOR,
+  JobEnum.FISCAL_DE_OBRAS
 ] as const;
 
 export type JobWithComplement = (typeof JOBS_WITH_REQUIRED_COMPLEMENT)[number];
@@ -32,8 +33,6 @@ export const needsJobComplement = (job: JobEnum): job is JobWithComplement => {
 // Obs. Completar Auxiliares
 
 export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
-
-
   [JobEnum.TECNICO]: [
     JobComplementEnum.MANUTENCAO_PREDIAL,
     JobComplementEnum.INSTALADOR_REFRIGERACAO,
@@ -118,6 +117,12 @@ export const validJobComplements: Record<JobEnum, JobComplementEnum[]> = {
     JobComplementEnum.PLENO,
     JobComplementEnum.SENIOR,
   ],
+
+  [JobEnum.FISCAL_DE_OBRAS]: [
+    JobComplementEnum.NIVEL_1,
+    JobComplementEnum.NIVEL_2,
+    JobComplementEnum.NIVEL_3
+  ]
 };
 
 const requiredEnum = <T extends Record<string, string>>(

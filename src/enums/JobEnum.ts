@@ -17,4 +17,5 @@ export enum JobEnum {
   PROFISSIONAL = "Profissional",
   TECNICO = "Técnico",
   MECANICO = "Mecânico",
+  FISCAL_DE_OBRAS = "Fiscal de Obras"
 }
