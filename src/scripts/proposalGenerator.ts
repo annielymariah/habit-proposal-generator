@@ -20,7 +20,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     "Operador de Trator": 1925,
     Desenvolvedor: 1518,
     "Assistente Administrativo": 2000,
-    "Fiscal de Obras": 3000
+    "Fiscal de Obras": 3000,
   };
 
   const vrTable: Record<string, string> = {
@@ -114,8 +114,10 @@ export function generateProposal(values: ProcessedFormValues): string {
       complementLower.includes("nível 3");
     const adjustedSalary = isNivel2Or3 ? 2389 : 1925;
     if (jobLower.includes("motoboy")) salaryTable["Motoboy"] = adjustedSalary;
-    if (jobLower.includes("operador de trator")) salaryTable["Operador de Trator"] = adjustedSalary;
-    if (jobLower.includes("fiscal de obras")) salaryTable["Fiscal de Obras"]= 4000;
+    if (jobLower.includes("operador de trator"))
+      salaryTable["Operador de Trator"] = adjustedSalary;
+    if (jobLower.includes("fiscal de obras"))
+      salaryTable["Fiscal de Obras"] = 4000;
   }
 
   if (hasPositionJob) {
@@ -157,7 +159,7 @@ export function generateProposal(values: ProcessedFormValues): string {
     if (hasAnyKeyword(fullText, benefitsConfig.periculosidade)) {
       addictionals.push("➡ 30% de periculosidade sobre o salário base.");
     }
-    
+
     // Insalubridade
 
     if (hasAnyKeyword(fullText, benefitsConfig.insalubridade)) {
@@ -165,8 +167,7 @@ export function generateProposal(values: ProcessedFormValues): string {
         "➡ 20% de insalubridade sobre o salário mínimo vigente."
       );
     }
-    
-   
+
     // Prêmio por atividades excepcionais e café da manhã
 
     const shouldAddPremium =
@@ -204,6 +205,27 @@ export function generateProposal(values: ProcessedFormValues): string {
         }
       }
     }
+
+    // Prêmios de serviços e obras supervisionadas
+
+    if (jobText.includes("fiscal de obras")) {
+      if (complementText.includes("nível 1")) {
+        addictionals.push(
+          `➡ 0,35% Premiação referente aos serviços/obras que supervisionar.`
+        );
+      }
+      if (complementText.includes("nível 2")) {
+        addictionals.push(
+          `➡ 0,40% Premiação referente aos serviços/obras que supervisionar.`
+        );
+      }
+      if (complementText.includes("nível 3")) {
+        addictionals.push(
+          `➡ 0,50% Premiação referente aos serviços/obras que supervisionar.`
+        );
+      }
+    }
+
     return addictionals;
   };
   const salary = salaryTable[values.job] || 0;
