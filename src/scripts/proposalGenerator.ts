@@ -33,6 +33,8 @@ export function generateProposal(values: ProcessedFormValues): string {
       "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
     "Alta Floresta, Mato Grosso":
       "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
+    "Colíder, Mato Grosso":
+      "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
     "Patos, Paraíba":
       "➡ Vale Refeição, considerando o valor de R$20,00 por dia útil trabalhado.",
   };
@@ -146,7 +148,6 @@ export function generateProposal(values: ProcessedFormValues): string {
     const jobText = job.toLowerCase();
     const complementText = jobComplement?.toLowerCase() || "";
     const fullText = `${jobText} ${complementText}`;
-    
 
     // Periculosidade
 
@@ -200,28 +201,28 @@ export function generateProposal(values: ProcessedFormValues): string {
       }
     }
     return addictionals;
-  }
-const salary = salaryTable[values.job] || 0;
-const vr = vrTable[values.location] || "";
-const attendance = getAttendance(values.finalJob);
-const addictionals = getAddictionals(values.finalJob, values.jobComplement);
-const schedule = getSchedules(values.location);
+  };
+  const salary = salaryTable[values.job] || 0;
+  const vr = vrTable[values.location] || "";
+  const attendance = getAttendance(values.finalJob);
+  const addictionals = getAddictionals(values.finalJob, values.jobComplement);
+  const schedule = getSchedules(values.location);
 
-let modalityBenefits = "";
+  let modalityBenefits = "";
 
-if (values.modality.toLowerCase() === "presencial") {
-  modalityBenefits = `
+  if (values.modality.toLowerCase() === "presencial") {
+    modalityBenefits = `
 ➡ Auxílio Transporte, considerando o valor de R$09,90 por dia útil trabalhado.
 ${vr}
 ➡ R$${attendance} de Prêmio Assiduidade, por mês completo de trabalho.
 ➡ Convênio BR5 assim que finalizado a admissão.`;
-} else {
-  const auxHomeOffice = 896; 
-  modalityBenefits = `➡ Auxílio homeoffice de R$${auxHomeOffice}
+  } else {
+    const auxHomeOffice = 896;
+    modalityBenefits = `➡ Auxílio homeoffice de R$${auxHomeOffice}
 ➡ Convênio BR5 assim que finalizado a admissão.`;
-}
+  }
 
-return `*PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toUpperCase()}:*
+  return `*PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.location.toUpperCase()}:*
 🔸Local: ${values.location.toUpperCase()}.
 🔸Função: ${values.finalJob}.
 🔸Salário base de R$${salary}.
@@ -233,8 +234,13 @@ return `*PROPOSTA DE TRABALHO PARA ${values.finalJob.toUpperCase()} EM ${values.
 ${addictionals.length ? addictionals.join("\n") : ""}
 
 *Horário de trabalho*
-➡ De segunda a sexta, das ${schedule.weekday.start} às ${schedule.weekday.end}, com intervalo de ${schedule.weekday.break}.
-➡ Aos sábados, das ${schedule.saturday.start} às ${schedule.saturday.end}, sem intervalos.
+➡ De segunda a sexta, das ${schedule.weekday.start} às ${
+    schedule.weekday.end
+  }, com intervalo de ${schedule.weekday.break}.
+➡ Aos sábados, das ${schedule.saturday.start} às ${
+    schedule.saturday.end
+  }, sem intervalos.
 
 Proposta válida por 15 dias após envio.
-`};
+`;
+}
