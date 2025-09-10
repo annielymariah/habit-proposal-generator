@@ -6,5 +6,5 @@ export enum LocationEnum {
   COLIDER = "Colíder, Mato Grosso",
   ALTA_FLORESTA = "Alta Floresta, Mato Grosso",
   PATOS = "Patos, Paraíba",
-  DEMAIS_CIDADES = "Demais Cidades do Interior"
+  DEMAIS_CIDADES = "Demais cidades do interior"
 }
